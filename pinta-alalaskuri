@@ -1,0 +1,9 @@
+def main():
+    rivi = input("Anna huoneen leveys metreina: ")
+    leveys = float(rivi)
+    rivi = input("Anna huoneen pituus metreina: ")
+    pituus = float(rivi)
+    pinta_ala = leveys * pituus
+    print("Huoneen pinta-ala on", pinta_ala, "neliometria")
+
+main()
